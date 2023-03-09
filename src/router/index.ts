@@ -31,7 +31,7 @@ router.beforeEach(async (to, from) =>{
   const token = store.getters.getToken;
   if (lodash.isNil(token) || lodash.isEmpty(token)) {
     switch (to.name) {
-      case 'home' || 'login':
+      case 'home':
         return { path: '/login' }
     }
   }

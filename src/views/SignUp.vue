@@ -126,7 +126,7 @@
                   <div class="row action-form">
                       <div class="col-12">
                           <router-link to="/login">Quay lại đăng nhập</router-link>
-                          <button class="btn btn-primary" @click="registerAccount">Đăng kí</button>
+                          <button class="btn btn-primary" @click="registerAccount" :disabled="isDisabled">Đăng kí</button>
                       </div>
                   </div>
                 </div>
