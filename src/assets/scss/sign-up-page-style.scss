@@ -1,0 +1,65 @@
+.sign-up-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .sign-up-information{
+        width: 35%;
+        .sign-up-body{
+          overflow: auto;
+          height: 80vh;
+        }
+        .description-scope{
+          color: red;
+          font-style: italic;
+        }
+  
+        label::after {
+          content: '*';
+          color: red;
+        }
+        .error-message{
+          color: red;
+          font-size: 13px;
+          font-style: italic;
+        }
+        .checkbox-label::after {
+          content: ''!important;
+        }
+        .checkbox-label {
+          width: fit-content;
+        }
+        .divider{
+          border-top: 1px solid #dedede;
+        }
+        .firstname-information{
+            display: flex;
+            flex-direction: column;
+        }
+        .lastname-information{
+            display: flex;
+            flex-direction: column;
+        }
+        .email-information{
+            display: flex;
+            flex-direction: column;
+        }
+        .action-form{
+            div{
+                display: flex;
+                justify-content: space-between;
+                a, button{
+                    width: 50%;
+                }
+            }
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 1000px){
+      .sign-up-information{
+          width: 100%!important;
+      }
+  }
