@@ -68,17 +68,19 @@ export default defineComponent({
 
       if (!ld.isNil(item)) {
         const isLiked = item!.classList.contains("liked");
-        
-        item!.classList.toggle("liked");
-        const result = await store.dispatch('LikeMovie', {
+        const {data} = await store.dispatch('LikeMovie', {
           movieId: id,
           actionType: isLiked ? ActionType.Descrease : ActionType.Increase
         });
+        if (!ld.isNil(data)) {
+          item!.classList.toggle("liked");
+        }
       }
     }
 
     const scrollElements = async (e) => {
-      if (Math.round(e.target.offsetHeight + e.target.scrollTop) >= e.target.scrollHeight)
+      const scrollHeight = Math.round(e.target.offsetHeight + e.target.scrollTop) + (Math.round(e.target.offsetHeight + e.target.scrollTop) * 0.05)
+      if (scrollHeight >= e.target.scrollHeight)
       {
         await store.dispatch('GetMovies', {
           pageIndex: currentPage.value++
