@@ -1,0 +1,17 @@
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Infrastructure.DataContext.deps.json
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Infrastructure.DataContext.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Infrastructure.DataContext.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Model.Entities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Utilities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Model.Entities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\bin\Release\net6.0\BE.Utilities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.csproj.AssemblyReference.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.AssemblyInfoInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.AssemblyInfo.cs
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.csproj.CopyComplete
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\refint\BE.Infrastructure.DataContext.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\BE.Infrastructure.DataContext.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Infrastructure.DataContext\obj\Release\net6.0\ref\BE.Infrastructure.DataContext.dll

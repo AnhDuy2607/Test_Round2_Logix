@@ -1,0 +1,576 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Authentication\\BE.Authentication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Authentication\\BE.Authentication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Authentication\\BE.Authentication.csproj",
+        "projectName": "BE.Authentication",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Authentication\\BE.Authentication.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Authentication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\BE.Core.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\BE.Core.csproj"
+              },
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\BE.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\BE.Core.csproj",
+        "projectName": "BE.Core",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\BE.Core.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\BE.DTOs.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\BE.DTOs.csproj"
+              },
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\BE.Enums.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\BE.Enums.csproj"
+              },
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\BE.UnitOfWork.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\BE.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\BE.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\BE.DTOs.csproj",
+        "projectName": "BE.DTOs",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\BE.DTOs.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\BE.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\BE.Enums.csproj",
+        "projectName": "BE.Enums",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\BE.Enums.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\BE.Infrastructure.DataContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\BE.Infrastructure.DataContext.csproj",
+        "projectName": "BE.Infrastructure.DataContext",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\BE.Infrastructure.DataContext.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\BE.Model.Entities.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\BE.Model.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\BE.Model.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\BE.Model.Entities.csproj",
+        "projectName": "BE.Model.Entities",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\BE.Model.Entities.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Model.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\BE.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\BE.Repository.csproj",
+        "projectName": "BE.Repository",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\BE.Repository.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\BE.Infrastructure.DataContext.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Infrastructure.DataContext\\BE.Infrastructure.DataContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\BE.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\BE.UnitOfWork.csproj",
+        "projectName": "BE.UnitOfWork",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\BE.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\BE.Repository.csproj": {
+                "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Repository\\BE.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj",
+        "projectName": "BE.Utilities",
+        "projectPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\BE.Utilities.csproj",
+        "packagesPath": "C:\\Users\\anhdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anhdu\\Desktop\\Fullstack_test\\BackEnd\\BE.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anhdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

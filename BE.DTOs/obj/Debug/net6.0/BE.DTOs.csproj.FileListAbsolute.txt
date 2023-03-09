@@ -1,0 +1,15 @@
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\bin\Debug\net6.0\BE.DTOs.deps.json
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\bin\Debug\net6.0\BE.DTOs.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\bin\Debug\net6.0\BE.DTOs.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.csproj.AssemblyReference.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.AssemblyInfoInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.AssemblyInfo.cs
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\refint\BE.DTOs.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\ref\BE.DTOs.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\bin\Debug\net6.0\BE.Utilities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\bin\Debug\net6.0\BE.Utilities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.DTOs\obj\Debug\net6.0\BE.DTOs.csproj.CopyComplete

@@ -1,0 +1,12 @@
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\bin\Debug\net6.0\BE.Enums.deps.json
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\bin\Debug\net6.0\BE.Enums.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\bin\Debug\net6.0\BE.Enums.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.csproj.AssemblyReference.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.AssemblyInfoInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.AssemblyInfo.cs
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.csproj.CoreCompileInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\refint\BE.Enums.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\BE.Enums.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Enums\obj\Debug\net6.0\ref\BE.Enums.dll

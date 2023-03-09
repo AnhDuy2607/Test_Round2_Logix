@@ -1,0 +1,15 @@
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\bin\Debug\net6.0\BE.Model.Entities.deps.json
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\bin\Debug\net6.0\BE.Model.Entities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\bin\Debug\net6.0\BE.Model.Entities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\bin\Debug\net6.0\BE.Utilities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\bin\Debug\net6.0\BE.Utilities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.csproj.AssemblyReference.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.AssemblyInfoInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.AssemblyInfo.cs
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.csproj.CoreCompileInputs.cache
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.csproj.CopyComplete
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\refint\BE.Model.Entities.dll
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\BE.Model.Entities.pdb
+C:\Users\anhdu\Desktop\Fullstack_test\BackEnd\BE.Model.Entities\obj\Debug\net6.0\ref\BE.Model.Entities.dll
