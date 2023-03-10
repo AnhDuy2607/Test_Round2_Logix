@@ -11,5 +11,5 @@ const app = createApp(App)
 app.use(store);
 app.use(router);
 app.use(VueAxios, axios);
-app.axios.defaults.baseURL = "https://localhost:7156/api";
+app.axios.defaults.baseURL = "https://test-api.dichvubanker.com/api";
 app.mount('#app');

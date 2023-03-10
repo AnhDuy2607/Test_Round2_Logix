@@ -140,6 +140,7 @@
 import { defineComponent, ref, watch } from "vue";
 import ld from 'lodash';
 import { useStore } from "vuex";
+import { useRouter } from "vue-router";
 
 interface RegisterAccount {
   firstname: {
@@ -171,6 +172,7 @@ export default defineComponent({
   name: "signup-page",
   setup() {
     const store = useStore();
+    const router = useRouter();
     const model = ref<RegisterAccount>({
       firstname: {
         error: '',
@@ -218,7 +220,9 @@ export default defineComponent({
 
         if (result) {
           alert('Đăng kí thành công!');
-          window.location.href = '/login';
+          setTimeout(async () => {
+            await router.push({name: 'login', path: '/login'});
+          }, 1000);
           return;
         }
         isDisabled.value = false;

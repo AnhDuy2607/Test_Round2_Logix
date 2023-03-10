@@ -13,12 +13,16 @@ const store = createStore({
     return {
       user: {},
       token: "",
-      movies: [] as any[]
+      movies: [] as any[],
+      isAuth: false
     }
   },
   getters: {
     getToken(state) {
       return state.token;
+    },
+    isAuthencation(state) {
+      return state.isAuth;
     },
     getUser(state) {
       return state.user;
@@ -30,11 +34,13 @@ const store = createStore({
   mutations: {
     setToken(state, payload:any) {
       state.token = payload.data.token;
+      state.isAuth = true;
     },
     clearData(state) {
       state.token = "";
       state.user = {};
       state.movies = [];
+      state.isAuth = false;
     },
     setUser(state, payload:any) {
       state.user = payload.data.user;

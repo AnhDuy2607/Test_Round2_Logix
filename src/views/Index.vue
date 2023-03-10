@@ -32,6 +32,7 @@ import { defineComponent, ref, computed } from "vue";
 import { useStore } from "vuex";
 import ld from 'lodash'
 import {ActionType} from '@/core/enum'
+import { useRouter } from "vue-router";
 interface MovieInformation {
   title: string,
   imageUrl: string,
@@ -44,6 +45,7 @@ export default defineComponent({
   name: "index-page",
   setup () {
     const store = useStore();
+    const router = useRouter();
     const currentPage = ref<number>(1);
     const user = computed(() =>{
       return store.getters.getUser
@@ -59,7 +61,9 @@ export default defineComponent({
       const choose = confirm("Bạn muốn thoát khỏi hệ thống ?");
       if (choose) {
         await store.dispatch('Logout');
-        window.location.href = '/login';
+        setTimeout(async () => {
+          await router.push({name: 'login', path: '/login'});
+        }, 1000);
       }
     }
 

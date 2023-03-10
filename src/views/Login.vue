@@ -72,6 +72,7 @@
 import { defineComponent, ref } from "vue";
 import { useStore } from "vuex";
 import lodash from 'lodash';
+import { useRouter } from "vue-router";
 
 interface LoginInformation {
     username: string,
@@ -81,6 +82,7 @@ export default defineComponent({
   name: "login-page",
   setup () {
     const store = useStore();
+    const router = useRouter();
     const loginModel = ref<LoginInformation>({
         username: '',
         password: ''
@@ -97,7 +99,9 @@ export default defineComponent({
         try {
             isDisabled.value = true;
             await store.dispatch("Login", loginModel.value);
-            window.location.href = '/';
+            setTimeout(async () => {
+                await router.push({name: 'home', path: '/'});
+            }, 1000);
         }
         catch (ex) {
             isDisabled.value = false;
